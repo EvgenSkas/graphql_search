@@ -1,0 +1,27 @@
+{
+  "name": "graphql_search",
+  "version": "1.0.0",
+  "description": "research graph_ql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgenSkas/graphql_search.git"
+  },
+  "author": "Yauheni Skaskevich <yskaskevich@eisgroup.com> (http://eisgroup.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgenSkas/graphql_search/issues"
+  },
+  "homepage": "https://github.com/EvgenSkas/graphql_search#readme",
+  "devDependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-graphql": "0.9.0",
+    "graphql": "14.6.0",
+    "mongoose": "5.8.11",
+    "nodemon": "2.0.2"
+  }
+}
